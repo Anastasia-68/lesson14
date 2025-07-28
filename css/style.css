@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #38540794;
+  }
+
+  .container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(85%);
+}
+
+.navbar.bg-opacity-50 {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.accordion,
+  .accordion-item,
+  .accordion-button,
+  .accordion-body {
+    background-color: transparent !important; 
+    box-shadow: none !important;             
+    border: none !important;                
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #000; 
+    background-color: rgba(255, 255, 255, 0.2) !important; 
+  }
+
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+
+  .header-leaves {
+    background-size: cover;
+    height: 250px; 
+    display: flex;
+    align-items: flex-end; 
+    position: relative;
+  }
+  
+.header-leaves .navbar {
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+
+.navbar-nav .nav-link {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+  }
+
+header.position-relative {
+    height: 180px;  
+    overflow: hidden;  
+  }
+  
+header.position-relative img {
+    height: 100%;  
+    width: 100%;    
+    object-fit: cover;  
+  }
+  
+.dropdown-menu {
+    background-color: rgba(33, 37, 41, 0.5);  
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    color: white;
+  }
+  
+.dropdown-menu .dropdown-item {
+    color: white;
+    background-color: rgba(33, 37, 41, 0.9);  
+  }
+  
+.dropdown-menu .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+  }
+
+.footer-space {
+    margin-top: 110px;  
+  }
+  
+  
