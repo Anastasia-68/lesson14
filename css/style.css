@@ -11,11 +11,25 @@ body {
   padding: 0 15px;
 }
 
+
 .header-image {
   width: 100%;
-  height: 100%;
+  height: 180px;
   object-fit: cover;
   filter: brightness(85%);
+  border-radius: 8px;
+}
+
+.custom-navbar {
+  position: absolute;
+  top: 20px; /* отступ вниз от верхнего края картинки */
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 95%; /* немного уже, чем вся картинка */
+  padding: 0.5rem 1rem;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 .navbar.bg-opacity-50 {
